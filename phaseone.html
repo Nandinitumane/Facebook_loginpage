@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(214, 226, 229);
+    }
+
+    #container{
+         display: flex; 
+    }
+
+    #box{
+        height: 300px;
+        width: 400px;
+        background-color: white;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        margin-left: 50px;
+        margin-right: 100px;
+        border-radius: 10px;
+        padding: 20px;
+       
+    }
+    input{
+    height:40px; 
+    width:400px;
+    font-size: 20px;
+    border:2px solid gray ;
+    border-radius: 5px;
+    }
+    img{
+        height:100px;
+        width: 400px;
+        margin-top:100px;
+        /* margin-bottom: 150px; */
+        margin-left: 90px;
+    }
+    
+    
+</style>
+<body>
+    <div id="container">
+        <div><img src="/assets/4lCu2zih0ca.svg">
+        <p style="font-size:25px; margin-left: 170px;">Facebook helps you connect and share with the people in your life.</p></div>
+        
+        <div id="box">
+            <form action="">
+                
+                    <label for="email"></label>
+                    <input id="email" type="email" placeholder="Email address or phone number"  name="useremail" required><br>
+                    <br><label for="password"></label>
+                    <input type="password" placeholder="Password" name="password" pattern="[A-Ma-s @]{4,8}"> <br>
+
+                   <br> <label for="button"></label>
+                   <input style="background-color:rgb(24, 119, 242)" type="button" value="Log in">
+
+                   <input style="border: none; background-color: white; font-size: 16px; color: blue;" id="forget" type="submit" value="Forgotten password?">
+                   <hr>
+
+                   <a href="http://127.0.0.1:5500/phasetwo.html"><input style="background-color:green; color: white; width: 200px; margin-left: 100px; margin-top: 20px;" type="button" value="Create new account"></a>
+                   
+                  
+               
+            </form>
+        </div>
+    </div>
+</body>
+</html>

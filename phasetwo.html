@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook Clone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #1877f2;
+      font-size: 50px;
+    }
+
+    .box {
+      background: #fff;
+      width: 350px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px #ccc;
+      text-align: left;
+    
+    }
+
+    .box h2 {
+      text-align: center;
+      margin: 0;
+    }
+
+    .box p {
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin: 6px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+      background: white; 
+    }
+
+    .gender {
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 0;
+    }
+
+    .gender label {
+      flex: 1;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 8px;
+      text-align: center;
+      margin-right: 5px;
+      background: white;
+    }
+
+    .gender label:last-child {
+      margin-right: 0;
+    }
+
+    button {
+      width: 100%;
+      background: #42b72a;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #36a420;
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .login-link h5 {
+      color: #1877f2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+  </style>
+</head>
+<body>
+
+  <img style="height: 70px; width: 1000px;" src="/assets/4lCu2zih0ca.svg">
+
+  <div class="box">
+    <h2>Create a new account</h2>
+    <p>It's quick and easy.</p>
+    <div class="container">
+    <input type="text" placeholder="First name">
+    <input type="text" placeholder="Surname"></div>
+
+   <label style="color: gray; font-size: 14px;">Date of birth?</label> <br>
+    <div class="container">
+    <select>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+    </select>
+    <select>
+      <option>jan</option>
+      <option>feb</option>
+      <option>march</option>
+    </select>
+    <select>
+      <option>2025</option>
+      <option>2024</option>
+      <option>2023</option>
+    </select>
+    </div>
+    <label style="color: gray; font-size: 14px;">Gender?</label> <br>
+     <div class="container">
+    <div class="gender">
+      <label style="height: 40px; width: 100px;"><input type="radio" name="gender"> Female</label>
+      <label style= "height: 40px; width: 100px;"><input  type="radio" name="gender"> Male</label>
+      <label style="height: 40px; width: 100px;"><input style="height: 20px; width: 100px;" type="radio" name="gender"> Custom</label>
+    </div>
+    </div>
+
+    <input type="text" placeholder="Mobile number or email address">
+    <input type="password" placeholder="New password">
+
+    <button>Sign Up</button>
+
+    <div class="login-link">
+      <h5>Already have an account?</h5>
+    </div>
+  </div>
+
+</body>
+</html>
